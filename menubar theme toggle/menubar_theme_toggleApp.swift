@@ -46,6 +46,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.action = #selector(handleClick)
             button.target = self
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
+            button.toolTip = "Toggle theme"
+            button.setAccessibilityLabel("Toggle theme")
         }
         
         // Listen for system theme changes
@@ -106,7 +108,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
         
         // Run on Startup option
-        let startupItem = NSMenuItem(title: "Run on Startup", action: #selector(toggleStartup), keyEquivalent: "")
+        let startupItem = NSMenuItem(title: "Run on login", action: #selector(toggleStartup), keyEquivalent: "")
         startupItem.target = self
         startupItem.state = isInLoginItems() ? .on : .off
         menu.addItem(startupItem)
@@ -114,7 +116,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem.separator())
         
         // Quit option
-        let quitItem = NSMenuItem(title: "Quit", action: #selector(quitApp), keyEquivalent: "q")
+        let quitItem = NSMenuItem(title: "Quit", action: #selector(quitApp), keyEquivalent: "")
         quitItem.target = self
         menu.addItem(quitItem)
         

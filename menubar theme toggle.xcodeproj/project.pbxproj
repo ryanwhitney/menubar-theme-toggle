@@ -16,16 +16,6 @@
 			path = "menubar theme toggle";
 			sourceTree = "<group>";
 		};
-		94CAF9A32E429FCD004B56AD /* menubar theme toggleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "menubar theme toggleTests";
-			sourceTree = "<group>";
-		};
-		94CAF9AD2E429FCD004B56AD /* menubar theme toggleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "menubar theme toggleUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				94CAF9942E429FCD004B56AD /* menubar theme toggle */,
-				94CAF9A32E429FCD004B56AD /* menubar theme toggleTests */,
-				94CAF9AD2E429FCD004B56AD /* menubar theme toggleUITests */,
 				94CAF9932E429FCD004B56AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -266,6 +254,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 33AN7VPKEB;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -293,6 +282,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 33AN7VPKEB;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

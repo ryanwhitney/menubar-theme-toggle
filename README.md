@@ -5,4 +5,11 @@ a tiny app to toggle your mac's system appearance setting (dark or light mode) f
 <br/>
 <br/>
 
-[download the latest release (.app)](https://github.com/ryanwhitney/menubar-theme-toggle/releases/latest/download/Menubar.Theme.Toggle.app.zip)
+**[download the latest release (.app)](https://github.com/ryanwhitney/menubar-theme-toggle/releases/latest/download/Menubar.Theme.Toggle.app.zip)**
+
+<hr/>
+
+using it:
+- runs in menubar only, dock icon should hide itself
+- right click to access menu:
+<img width="256" height="114" alt="Screenshot 2025-08-19 at 9 36 17 AM" src="https://github.com/user-attachments/assets/75c760e0-5157-4955-af5b-ef16c3d0ce7e" />
